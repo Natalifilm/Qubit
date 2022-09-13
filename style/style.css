@@ -54,6 +54,15 @@ body{
     cursor: pointer;
 }
 
+@keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.image {
+    animation: 5s show ease;
+}
+
 .main{
     background: #f6bed9;
     padding: 58px 0 59px;
